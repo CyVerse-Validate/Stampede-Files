@@ -1,0 +1,4 @@
+Use run.inp from the directory above as parameter file.
+Use DMI.gs as phenotype file.
+Use gpegeno.newbin as marker file.
+Use DMIg.192 as file specifying markers to be included.
