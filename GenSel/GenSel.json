@@ -29,7 +29,7 @@
         "minCardinality": 1
       },
       "value": {
-        "default": "need correct data for default values",
+        "default": "data.iplantcollaborative.org/shared/iplantcollaborative/example_data/gensel/gpegeno.newbin",
         "required": true,
         "visible": true,
         "order": 0
@@ -46,7 +46,7 @@
         "minCardinality": 1
       },
       "value": {
-        "default": "need correct data for default values",
+        "default": "data.iplantcollaborative.org/shared/iplantcollaborative/example_data/gensel/DMI.gs",
         "required": true,
         "visible": true,
         "order": 0
@@ -63,7 +63,7 @@
         "minCardinality": 1
       },
       "value": {
-        "default": "need correct data for default values",
+        "default": "data.iplantcollaborative.org/shared/iplantcollaborative/example_data/gensel/DMIg.192",
         "required": true,
         "visible": true,
         "order": 0
