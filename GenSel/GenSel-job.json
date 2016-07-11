@@ -1,0 +1,14 @@
+{
+"jobName": "testGenSel",
+"softwareName": "GenSel_4.55",
+"requestedTime": "02:00:00",
+"archive": true,
+    "inputs":{
+        "phenotypeFileName": "agave://data.iplantcollaborative.org/shared/iplantcollaborative/example_data/gensel/DMI.gs",
+        "markerFileName": "agave://data.iplantcollaborative.org/shared/iplantcollaborative/example_data/gensel/gpegeno.newbin",
+        "includeFileName": "agave://data.iplantcollaborative.org/shared/iplantcollaborative/example_data/gensel/DMIg.192"
+    },
+    "parameters":{
+        "parameter_File": "agave://data.iplantcollaborative.org/shared/iplantcollaborative/example_data/gensel/run.inp"
+    }
+}
