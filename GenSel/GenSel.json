@@ -19,27 +19,10 @@
   "deploymentSystem": "data.iplantcollaborative.org",
   "inputs": [
     {
-      "id": "genotypic_data",
+      "id": "phenotypeFileName",
       "details": {
-        "label": "Genotypic Data",
-        "description": "This file should contain the Genotypic data for GenSel to process.",
-        "showAttribute": false
-      },
-      "semantics": {
-        "minCardinality": 1
-      },
-      "value": {
-        "default": "data.iplantcollaborative.org/shared/iplantcollaborative/example_data/gensel/gpegeno.newbin",
-        "required": true,
-        "visible": true,
-        "order": 0
-      }
-    },
-    {
-     "id": "phenotypic_data",
-      "details": {
-        "label": "Phenotypic Data",
-        "description": "This file should contain the Phenotypic Data for GenSel to process.",
+        "label": "phenotypeFileName",
+        "description": "This file should contain the the Phenotype data.",
         "showAttribute": false
       },
       "semantics": {
@@ -53,10 +36,27 @@
       }
     },
     {
-     "id": "Command File",
+      "id": "markerFileName",
       "details": {
-        "label": "Command File",
-        "description":"file that specifies relevant analytical options.",
+        "label": "markerFileName",
+        "description": "This file should contain the marker file.",
+        "showAttribute": false
+      },
+      "semantics": {
+        "minCardinality": 1
+      },
+      "value": {
+        "default": "data.iplantcollaborative.org/shared/iplantcollaborative/example_data/gensel/gpegeno.newbin",
+        "required": true,
+        "visible": true,
+        "order": 0
+      }
+    },
+    {
+      "id": "includeFileName",
+      "details": {
+        "label": "includeFileName",
+        "description": "? ? ? ? ? ? ? ? ? ? ? ?",
         "showAttribute": false
       },
       "semantics": {
@@ -68,6 +68,25 @@
         "visible": true,
         "order": 0
       }
+    }],
+    "parameters": [
+    {
+      "id": "Parameter_File",
+      "details": {
+        "label": "Parameter File",
+        "description": "This file should contain the the parameter list.",
+        "showAttribute": false
+      },
+      "semantics": {
+        "minCardinality": 1
+      },
+      "value": {
+        "default": "data.iplantcollaborative.org/shared/iplantcollaborative/example_data/gensel/run.inp",
+        "required": true,
+        "visible": true,
+        "order": 0
+      }
     }
-  ]
+    ],
+    "checkpointable": false  
 }
