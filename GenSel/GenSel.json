@@ -1,5 +1,5 @@
-{
-  "name": "GenSel",
+  {
+ "name": "GenSel",
   "version": "2.14",
   "helpURI": "http://www.biomedcentral.com/content/supplementary/1471-2105-12-186-s1.pdf",
   "label": "GenSel",
@@ -8,7 +8,7 @@
   "defaultMemoryPerNode": 4,
   "defaultProcessorsPerNode": 1,
   "deploymentPath": "jamesg/applications/GenSel_4.55",
-  "testPath": "test.sh",
+  "testPath": "test.sh ",
   "templatePath": "GenSel_wrap.sh",
   "defaultRequestedTime": "24:00:00",
   "shortDescription": "A Program written in C++ that comprises a portfolio of alternative analyses relevant to Genomic Selection",
@@ -16,7 +16,9 @@
   "executionType": "HPC",
   "executionSystem": "stampede-05122016-1041-jamesg",
   "parallelism": "SERIAL",
+  "appId": "GenSel-2.14",
   "deploymentSystem": "data.iplantcollaborative.org",
+  "tags": [ "GenSel", "Genetic Selection", "GS"],
   "inputs": [
     {
       "id": "phenotypeFileName",
@@ -26,7 +28,7 @@
         "showAttribute": false
       },
       "semantics": {
-        "minCardinality": 1
+                 "minCardinality": 1
       },
       "value": {
         "default": "data.iplantcollaborative.org/shared/iplantcollaborative/example_data/gensel/DMI.gs",
@@ -47,7 +49,7 @@
       },
       "value": {
         "default": "data.iplantcollaborative.org/shared/iplantcollaborative/example_data/gensel/gpegeno.newbin",
-        "required": true,
+         "required": true,
         "visible": true,
         "order": 0
       }
@@ -81,6 +83,7 @@
         "minCardinality": 1
       },
       "value": {
+        "type": "string",
         "default": "data.iplantcollaborative.org/shared/iplantcollaborative/example_data/gensel/run.inp",
         "required": true,
         "visible": true,
@@ -88,5 +91,5 @@
       }
     }
     ],
-    "checkpointable": false  
+    "checkpointable": false
 }
