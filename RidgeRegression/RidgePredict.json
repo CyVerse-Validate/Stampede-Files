@@ -1,5 +1,5 @@
 {
-  "name": "RidgePredit",
+  "name": "RidgePredict",
   "version": "1.0",
   "label": "RidgePredict",
   "defaultQueue": "normal",
@@ -9,9 +9,11 @@
   "defaultRequestedTime": "00:30:00",
   "shortDescription": "Phenotype Value Prediction",
   "longDescription": "Predict missing Phenotype values from given PED file",
+  "executionSystem": "tacc-stampede-ksierrac",
   "executionType": "HPC",
   "parallelism": "SERIAL",
   "deploymentSystem": "data.iplantcollaborative.org",
+  "deploymentPath": "ksierrac/applications/RidgeRegression",
   "templatePath": "wrapper.sh",
   "testPath": "testRidgePredict.sh",
   "inputs": [
