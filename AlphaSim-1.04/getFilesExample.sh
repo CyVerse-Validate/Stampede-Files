@@ -21,6 +21,7 @@ SAVEDIR6="$WORK/AlphaSim/Chromosomes/Chromosome2"
 SAVEDIR7="$WORK/AlphaSim/Selection/SelectionFolder1"
 SAVEDIR8="$WORK/AlphaSim/SimulatedData/AllIndividualsSnpChips"
 
+#***Change this to your job path on the data store***
 JOBPATH="ksierrac/archive/jobs/job-2999209127587474970-242ac1110-0001-007"
 
 cd $SAVEDIR1
