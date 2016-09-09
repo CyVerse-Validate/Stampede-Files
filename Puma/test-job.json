@@ -1,6 +1,6 @@
 {
     "jobName": "puma-test-1",
-    "softwareName": "Puma-1.0",
+    "softwareName": "Puma-1.0u1",
     "processorsPerNode": 16,
     "requestedTime": "01:00:00",
     "memoryPerNode": 32,
