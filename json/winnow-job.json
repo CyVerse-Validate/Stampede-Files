@@ -1,15 +1,21 @@
 {
-"jobName": "FLMMDongWangFull",
-"softwareName": "FaST-LMM-hpc-2.07u1",
+"jobName": "WinnowExample",
+"softwareName": "Winnow-0.9.2u1",
 "requestedTime": "02:00:00",
 "archive": true,
     "inputs":{
-        "inputFAM": "agave://data.iplantcollaborative.org/shared/syngenta_sim/Dong_Wang_sim/Analysis_Files/dongwang.fam",
-        "inputBED": "agave://data.iplantcollaborative.org/shared/syngenta_sim/Dong_Wang_sim/Analysis_Files/dongwang.bed",
-        "inputBIM": "agave://data.iplantcollaborative.org/shared/syngenta_sim/Dong_Wang_sim/Analysis_Files/dongwang.bim",
-        "inputPHENO": "agave://data.iplantcollaborative.org/shared/syngenta_sim/Dong_Wang_sim/Analysis_Files/dongwangpheno.txt"
+        "Class": "agave://data.iplantcollaborative.org/ksierrac/Plinkkt.ote",
+        "Folder": "agave://data.iplantcollaborative.org/ksierrac/PlinkExample"
+
     },
     "parameters":{
-        "output": "full_results"
+        "SNP": "SNP",
+        "Score": "P",
+        "Filename": "TestResults",
+        "beta": "BETA",
+        "threshold": "0.01",
+        "seper": "whitespace",
+        "kttype": "OTE"
     }
 }
+
