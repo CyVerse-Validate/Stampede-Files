@@ -16,6 +16,12 @@
   "deploymentPath": "ksierrac/applications/RidgeRegression",
   "templatePath": "wrapper.sh",
   "testPath": "testRidgePredict.sh",
+  "ontology": [
+	"http://edamontology.org/operation_3480",
+	"http://edamontology.org/topic_0625", 
+	"http://edamontology.org/topic_3517", 
+	"http://sswapmeet.sswap.info/iplant/apps/Application"
+  ],
   "inputs": [
     {
       "id": "inputPed",
@@ -29,6 +35,7 @@
         "minCardinality": 1
       },
       "value": {
+	"default": "example.ped",
         "validator": ".ped$",
         "required": true,
         "visible": true,
@@ -42,7 +49,7 @@
       "value": {
         "type": "string",
         "required": true,
-        "visible": true,
+        "visible": true
       },
       "details": {
 	    "label": "Output",

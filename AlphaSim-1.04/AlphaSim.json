@@ -1,6 +1,6 @@
 {
   "available" : true, 
-  "name": "buckAlphaSim",
+  "name": "AlphaSim",
   "version": "1.04",
   "helpURI": "http://www.alphagenes.roslin.ed.ac.uk/wp-content/uploads/Manual/index.html",
   "label": "AlphaSim",
@@ -18,6 +18,10 @@
   "executionSystem":"stampede-08262015-1627-swb5075",
   "templatePath":"wrapper.sh",
   "testPath" : "AlphaSimTest.sh",
+  "ontology": [
+	"http://edamontology.org/topic_0625",
+	"http://edamontology.org/operation_3480"
+	],
   "inputs": [
     {
         "id": "specificationFile",
