@@ -10,16 +10,21 @@
 	"defaultMemoryPerNode": 1,
 	"shortDescription": "Analyzing complex traits using a Bayesian mixture model.",
 	"longDescription": "bayesR implements a Bayesian mixture model for the analysis of complex traits using Markov chain Monte Carlo. It simultaneously identifies associated SNPs, estimates the genetic varianece exomplained by SNPs, describes the genetic architecture of the trait, and predicts phenotype from SNP genotypes.",
-	"executionSystem": "stampede-08262015-1627-swb5075",
+	"executionSystem": "tacc-stampede-ksierrac",
 	"executionType": "HPC",
 	"parallelism": "SERIAL",
-	"deploymentPath": "swb5075/applications/bayesR-2.00",
+	"deploymentPath": "ksierrac/applications/bayesR-2.00",
 	"deploymentSystem": "data.iplantcollaborative.org",
 	"templatePath": "wrapper.sh",
 	"testPath": "test.sh",
 	"checkpointable": false,
 	"tags": [
 		"bayesR", "Bayesian mixture model", "Markov chain Monte Carlo", "MCMC"
+	],
+	"ontology": [
+		"http://edamontology.org/topic_0625",
+		"http://edamontology.org/operation_3517",
+		"http://edamontology.org/operation_2945"
 	],
 	"inputs": [{
 		"id": "inputBED",
