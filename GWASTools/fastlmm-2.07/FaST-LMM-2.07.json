@@ -1,7 +1,7 @@
 {
   "name": "FaST-LMM",
-  "version": "2.07",
-  "helpURI": "https://pods.iplantcollaborative.org/wiki/display/atmman/Validate+Workflow+v0.7",
+  "version": "2.07.1",
+  "helpURI": "https://github.com/CyVerse-Validate/Quickstart-Guide/blob/master/docs/FaST-LMM%20Docs.md",
   "defaultQueue": "normal",
   "defaultMaxRunTime": "05:00:00",
   "shortDescription": "Whole genome association analysis toolset",
@@ -9,7 +9,7 @@
   "executionSystem": "stampede-07282014-1215-spt6655",
   "executionType": "HPC",
   "parallelism": "SERIAL",
-  "deploymentPath": "spt6655/applications/fastlmm-2.07/fastlmm",
+  "deploymentPath": "ksierrac/applications/FastLMM",
   "deploymentSystem": "data.iplantcollaborative.org",
   "templatePath": "fastlmm-wrapper.sh",
   "testPath": "test-fastlmm.sh",
@@ -20,6 +20,11 @@
     "Genome",
     "Association"
   ],
+  "ontology": [
+		"http://edamontology.org/topic_0625",
+		"http://edamontology.org/operation_3517",
+		"http://edamontology.org/operation_2945"
+	],
   "modules": [
     "purge",
     "load TACC",
