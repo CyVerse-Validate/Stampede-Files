@@ -1,6 +1,6 @@
 {
   "name": "QxPak",
-  "version": "5.05",
+  "version": "5.05.1",
   "helpURI": "http://nce.ads.uga.edu/~ignacy/numpub/blupf90/docs/qxpak.pdf",
   "label": "qxpak",
   "defaultQueue": "normal",
@@ -10,10 +10,10 @@
   "defaultMaxRunTime": "05:00:00",
   "shortDescription": "QxPak is a Fortran program aimed at simplifying statistical genetic analyses implementing a mixed model approach.",
   "longDescription": "This software aims at simplifying statistical genetic analyses implementing a coherent and unified mixed model approach. The goal is to provide software that can be used in a wide variety of situations with ample genetic and statistical modeling flexibility. The main kind of analyses that QxPak may be used for include regular mixed model solving, QTL, segment analysis, multitrait, association, molecular relation matrix, and sequence based association studies.",
-  "executionSystem": "stampede-07282014-1215-spt6655",
+  "executionSystem": "tacc-stampede-ksierrac",
   "executionType": "HPC",
   "parallelism": "SERIAL",
-  "deploymentPath": "spt6655/applications/qxpak-5.05",
+  "deploymentPath": "ksierrac/applications/qxpak-5.05",
   "deploymentSystem": "data.iplantcollaborative.org", 
   "templatePath": "qxpak_wrapper.sh",
   "testPath": "qxpak_test.sh",
@@ -35,7 +35,7 @@
         "minCardinality": 1
       },
       "value": {
-        "default": "agave://data.iplantcollaborative.org/spt6655/applications/qxpak-5.05/test/qxpak_1.par",
+        "default": "agave://data.iplantcollaborative.org/ksierrac/applications/qxpak-5.05/test/qxpak_1.par",
         "required": true,
         "visible": true,
         "order": 0
@@ -52,7 +52,7 @@
         "minCardinality": 1
       },
       "value": {
-        "default": "agave://data.iplantcollaborative.org/spt6655/applications/qxpak-5.05/test/qxpak_1.dat",
+        "default": "agave://data.iplantcollaborative.org/ksierrac/applications/qxpak-5.05/test/qxpak_1.dat",
         "required": true,
         "visible": true,
         "order": 0
@@ -69,7 +69,7 @@
         "minCardinality": 1
       },
       "value": {
-        "default": "agave://data.iplantcollaborative.org/spt6655/applications/qxpak-5.05/test/qxpak_1.ped",
+        "default": "agave://data.iplantcollaborative.org/ksierrac/applications/qxpak-5.05/test/qxpak_1.ped",
         "required": true,
         "visible": true,
         "order": 0
@@ -86,7 +86,7 @@
         "minCardinality": 1
       },
       "value": {
-        "default": "agave://data.iplantcollaborative.org/spt6655/applications/qxpak-5.05/test/qxpak_1.mkr",
+        "default": "agave://data.iplantcollaborative.org/ksierrac/applications/qxpak-5.05/test/qxpak_1.mkr",
         "required": true,
         "visible": true,
         "order": 0

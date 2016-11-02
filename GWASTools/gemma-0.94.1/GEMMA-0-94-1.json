@@ -1,6 +1,6 @@
 {
   "name": "GEMMA",
-  "version": "0.94.1",
+  "version": "0.94.2",
   "helpURI": "http://www.xzlab.org/software/GEMMAmanual.pdf",
   "defaultQueue": "normal",
   "defaultMaxRunTime": "05:00:00",
