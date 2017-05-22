@@ -13,9 +13,9 @@
   "longDescription": "AlphaSim is a software package for simulating sequence, genotypic, phenotypic, and pedigree data in a wide range of population types (e.g., animal breeding, plant breeding, human genetics, natural populations).",
   "executionType": "HPC",
   "parallelism": "SERIAL",
-  "deploymentPath": "dhbrand/applications/AlphaSim-1.08",
+  "deploymentPath": "dhbrand/AlphaSim/AlphaSim1.08",
   "deploymentSystem": "data.iplantcollaborative.org",
-  "executionSystem":"stampede-08262015-1627-swb5075",
+  "executionSystem":"stampede-08262015-1627-dhbrand",
   "templatePath":"wrapper.sh",
   "testPath" : "AlphaSimTest.sh",
   "inputs": [
