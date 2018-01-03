@@ -10,7 +10,7 @@
 	"defaultMemoryPerNode": 1,
 	"shortDescription": "Analyzing complex traits using a Bayesian mixture model.",
 	"longDescription": "bayesR implements a Bayesian mixture model for the analysis of complex traits using Markov chain Monte Carlo. It simultaneously identifies associated SNPs, estimates the genetic varianece exomplained by SNPs, describes the genetic architecture of the trait, and predicts phenotype from SNP genotypes.",
-	"executionSystem": "tacc-stampede-ksierrac",
+	"executionSystem": "tacc-stampede2-dhbrand",
 	"executionType": "HPC",
 	"parallelism": "SERIAL",
 	"deploymentPath": "ksierrac/applications/bayesR-2.00",
@@ -29,7 +29,7 @@
 	"inputs": [{
 		"id": "inputBED",
 		"value": {
-			"default": "agave://data.iplantcollaborative.org/swb5075/applications/bayesR-2.00/test_data/simdata.bed",
+			"default": "agave://data.iplantcollaborative.org/dhbrand/my_apps/bayesR-2.00/test_data/simdata.bed",
 			"visible": true,
 			"required": true
 		},
@@ -47,7 +47,7 @@
 	}, {
 		"id": "inputBIM",
 		"value": {
-			"default": "agave://data.iplantcollaborative.org/swb5075/applications/bayesR-2.00/test_data/simdata.bim",
+			"default": "agave://data.iplantcollaborative.org/dhbrand/my_apps/bayesR-2.00/test_data/simdata.bim",
 			"visible": true,
 			"required": true
 		},
@@ -66,7 +66,7 @@
 	}, {
 		"id": "inputFAM",
 		"value": {
-			"default": "agave://data.iplantcollaborative.org/swb5075/applications/bayesR-2.00/test_data/simdata.fam",
+			"default": "agave://data.iplantcollaborative.org/dhbrand/my_apps/bayesR-2.00/test_data/simdata.fam",
 			"visible": true,
 			"required": true
 		},
